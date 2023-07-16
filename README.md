@@ -18,3 +18,5 @@ it came from the world’s first computer – the mark 1 – a room-size maze of
 
 Key: digital
 ```
+---
+Note : If you are not satisfied with the initial output of decrypted text then try using the file as ```python3 script.py -r 1```
