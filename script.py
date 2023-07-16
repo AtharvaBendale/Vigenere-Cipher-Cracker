@@ -5,7 +5,7 @@ list_letter = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 
 # Defining all necessary functions
 
 parser = argparse.ArgumentParser(description='Vigenere Cipher Cracker')
-parser.add_argument('-r', '--redo', required=False, type=str,help="'1' or 'True' if you are not satisfied with the initial ouptput of decrypted text.")
+parser.add_argument('-r', '--redo', required=False, type=int,help="'1' if you are not satisfied with the initial ouptput of decrypted text.")
 args = parser.parse_args()
 redo = bool(args.redo)
 
